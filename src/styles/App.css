@@ -1,0 +1,45 @@
+.form-login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  max-width: 100%;
+ }
+ 
+.error-message {
+  color: red;
+}
+p {
+  font-size: small;
+}
+
+ul li {
+  list-style-type: none;
+  margin-right: 12px;
+  display: inline
+}
+
+.card {
+  width: 100%;
+}
+.btn {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+input::placeholder{
+  color: red;
+}
+
+.Main, .Loader {
+  text-align: center;
+}
+
+@media screen and (max-width: 322px) {
+  ul li {
+    display: block;
+    margin-left: -30px;
+  }
+}
